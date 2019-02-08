@@ -1,5 +1,5 @@
 # gallows-game
-Un joc micuț în js. ^^
+Un joc clasic făcut în JS. Have fun
 
 Te poți juca accesând acest link: https://vladutt.github.io/gallows-game/
 
