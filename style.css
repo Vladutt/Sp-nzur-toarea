@@ -1,0 +1,13 @@
+body{
+    background-color: #2ab7ca;
+    font-family: 'Roboto', sans-serif;
+}
+ul, .list{
+    list-style-type: none;
+    padding: 0px;
+}
+li, .li {
+    float: left;
+    padding: 0px 15px;
+    font-size: 32px;
+}
