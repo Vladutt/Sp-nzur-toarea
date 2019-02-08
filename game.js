@@ -23,7 +23,7 @@ function init(){
         'treisprezece',
         'Telenciclopedie'
     ];
-    life = 1;
+    life = 4;
     word = [];
 
     if(!start){
