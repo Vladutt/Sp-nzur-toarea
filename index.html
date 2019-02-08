@@ -1,0 +1,36 @@
+<html>
+    <link>
+        <meta charset="UTF-8">
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.slim.js"
+                integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Spânzurătoarea</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+    </head>
+<body>
+<div class="alert alert-warning" id="life-container" style="position: absolute; display: none;">
+    <p class="mb-0" id="life"></p>
+</div>
+<div class="container" style='display: flex; justify-content: center; align-items: center; height: 100vh'>
+    <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+            <div class="alert alert-info" id="info">
+                <p class="mb-0">Tastează literele care crezi că lipsesc din cuvânt</p>
+            </div>
+        </div>
+        <button id="start" class="btn btn-success">Pornește jocul</button>
+
+
+        <div class="col-lg-12 d-flex justify-content-center" id="word">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
